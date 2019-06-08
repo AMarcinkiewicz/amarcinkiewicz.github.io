@@ -7,3 +7,15 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.mb-0 {
+  color: #BBBBBB;
+}
+
+.mb-0:hover {
+  color: white;
+}
+
+#Header {
+  padding-top: 25px;
+}
