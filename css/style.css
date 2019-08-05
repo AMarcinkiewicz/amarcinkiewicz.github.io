@@ -24,3 +24,34 @@
   height: 50px;
   width: 150px;
 }
+
+@@font-face {
+  font-family: "Druk Wide"
+  src: url("css/fonts/DrukWideMedium.ttf");
+}
+
+h1 {
+  font-family: 'Druk Wide', Arial, sans-serif;
+  font-size: 2em;
+  color: rgb(51, 51, 51);
+}
+
+h2 {
+  font-family: 'Druk Wide', Arial, sans-serif;
+  font-size: 1.75em;
+  color: rgb(51, 51, 51);
+}
+
+h3 {
+  font-family: 'Druk Wide', Arial, sans-serif;
+  font-size: 1.45em;
+  color: rgb(51, 51, 51);
+}
+
+p {
+  color: #2e2a2a;
+}
+
+.bg-dark {
+  background-color: #151515!important;
+}
