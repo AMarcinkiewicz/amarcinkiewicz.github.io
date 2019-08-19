@@ -29,37 +29,40 @@
   width: 150px;
 }
 
-@@font-face {
-  font-family: "Druk Wide"
-  src: url("css/fonts/DrukWideMedium.ttf");
+h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+  font-size: 2.25em;
+  color: #212529;
 }
 
-h1 {
-  font-family: 'Druk Wide', Arial, sans-serif;
-  font-size: 2em;
-  color: rgb(51, 51, 51);
-}
 
 h2 {
-  font-family: 'Druk Wide', Arial, sans-serif;
-  font-size: 1.75em;
-  color: rgb(51, 51, 51);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+  font-size: 1.85em;
+  color: #212529;
 }
 
 h3 {
-  font-family: 'Druk Wide', Arial, sans-serif;
-  font-size: 1.45em;
-  color: rgb(51, 51, 51);
-}
-
-h4 {
-  font-family: 'Druk Wide', Arial, sans-serif;
-  font-size: 1em;
-  color: rgb(51, 51, 51);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  color: #212529;
 }
 
 p {
-  color: #2e2a2a;
+  font-family: 'Roboto', sans-serif;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #646464;
+}
+
+.bold {
+  font-weight: 600;
+  color: #212529;
 }
 
 .bg-dark {
