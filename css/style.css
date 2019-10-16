@@ -51,7 +51,7 @@
 h1 {
   font-family: 'avertastd3', Arial, Helvetica, sans-serif;
   font-weight: black;
-  font-size: 3.3em;
+  font-size: 3.5em;
   color: #0a0a16;
 }
 
@@ -132,4 +132,57 @@ body {
 
 footer {
   padding-bottom: 5px;
+}
+
+#intro {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+
+#out {
+  padding-bottom: 2.5em;
+}
+
+#icon {
+  text-decoration: none;
+}
+
+.fa-envelope {
+  color:hsla(0, 0%, 0%, 0.5);
+}
+
+.fa-envelope:hover {
+  color: #0a0a16;
+}
+
+.fa-linkedin-in {
+  color:hsla(0, 0%, 0%, 0.5);
+}
+
+.fa-linkedin-in:hover {
+  color: #0a0a16;
+}
+
+.fa-github {
+  color:hsla(0, 0%, 0%, 0.5);
+}
+
+.fa-github:hover {
+  color: #0a0a16;
+}
+
+.fa-twitter {
+  color:hsla(0, 0%, 0%, 0.5);
+}
+
+.fa-twitter:hover {
+  color: #0a0a16;
+}
+
+.fa-instagram {
+  color:hsla(0, 0%, 0%, 0.5);
+}
+
+.fa-instagram:hover {
+  color: #0a0a16;
 }
