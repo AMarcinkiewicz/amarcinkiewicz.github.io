@@ -21,8 +21,6 @@
   width: 150px;
 }
 
-
-
 @font-face {
   font-family: 'avertastd1';
   src: url('avertastd-regular-webfont.woff') format('woff');
@@ -121,8 +119,6 @@ body {
     font-weight: normal;
     font-family: 'avertastd1', Arial, Helvetica, sans-serif;
 }
-
-
 
 .btn {
   padding: .55rem 1.25rem;
