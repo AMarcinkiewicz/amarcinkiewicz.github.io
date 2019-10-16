@@ -51,7 +51,7 @@
 h1 {
   font-family: 'avertastd3', Arial, Helvetica, sans-serif;
   font-weight: black;
-  font-size: 3.5em;
+  font-size: 3.3em;
   color: #0a0a16;
 }
 
@@ -122,6 +122,8 @@ body {
     font-family: 'avertastd1', Arial, Helvetica, sans-serif;
 }
 
+
+
 .btn {
   padding: .55rem 1.25rem;
 }
@@ -131,12 +133,12 @@ body {
 }
 
 footer {
-  padding-bottom: 5px;
+  padding-bottom: 9px;
 }
 
 #intro {
   padding-top: 3.5em;
-  padding-bottom: 3.5em;
+  padding-bottom: 4em;
 }
 
 #out {
@@ -185,4 +187,9 @@ footer {
 
 .fa-instagram:hover {
   color: #0a0a16;
+}
+
+.navbar-nav > li{
+  padding-left:.3em;
+  padding-right:.3em;
 }
