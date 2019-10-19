@@ -216,8 +216,8 @@ cursor:default;
 .hovereffect img {
 display:block;
 position:relative;
--webkit-transition:all .2s linear;
-transition:all .2s linear;
+-webkit-transition:all .35s linear;
+transition:all .35s linear;
 }
 
 .hovereffect:hover img {
