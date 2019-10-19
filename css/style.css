@@ -45,14 +45,12 @@
   font-weight: black;
 }
 
-
 h1 {
   font-family: 'avertastd3', Arial, Helvetica, sans-serif;
   font-weight: black;
   font-size: 3.3em;
   color: #0a0a16;
 }
-
 
 h2 {
   font-family: 'avertastd2', Arial, Helvetica, sans-serif;
@@ -107,7 +105,6 @@ body {
   background-color: #FAFAFA!important;
   font-family: 'avertastd1', Arial, Helvetica, sans-serif;
 }
-
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
  .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -205,8 +202,6 @@ footer {
   padding-left:.3em;
   padding-right:.3em;
 }
-
-
 
 .hovereffect {
 width:100%;
