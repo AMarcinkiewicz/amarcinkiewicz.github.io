@@ -299,7 +299,7 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #003BC2;
+  background-color: #FF9800;
 }
 
 input:checked + .slider:before {
@@ -371,6 +371,21 @@ body.dark_mode {
   fill: #FFF;
 }
 
+.dark_mode a {
+  color: #FF9800;
+}
+
+.dark_mode .btn-primary {
+  color: #000;
+  background-color: #FF9800;
+  border-color: #FF9800;
+}
+
+.dark_mode .btn-primary:hover {
+  background-color: #E68A00;
+  border-color: #E68A00;
+}
+
 .dark_mode .dropdown-menu {
   background: #000;
 }
@@ -405,7 +420,7 @@ body.dark_mode {
 }
 
 .dark_mode .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #004EFF;
+    color: #FF9800;
 }
 
 .dropdown > .dropdown-menu {
