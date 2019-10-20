@@ -386,6 +386,11 @@ body.dark_mode {
   border-color: #E68A00;
 }
 
+.dark_mode .btn-primary:active:focus {
+  background-color: #E68A00;
+  border-color: #E68A00;
+}
+
 .dark_mode .dropdown-menu {
   background: #000;
 }
