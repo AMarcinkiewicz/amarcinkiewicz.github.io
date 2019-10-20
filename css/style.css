@@ -231,8 +231,8 @@ footer {
   border: 0;
   background: transparent;
   outline: none;
-  vertical-align: super;
-
+  vertical-align: text-bottom;
+  display: inline-block;
 
 }
 
