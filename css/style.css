@@ -114,6 +114,10 @@ body {
     font-family: 'avertastd1', Arial, Helvetica, sans-serif;
 }
 
+.navbar-light {
+  background-color: #FAFAFA !important;
+}
+
 .btn-primary {
   padding: .55rem 1.25rem;
   background-color: #004EFF;
