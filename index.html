@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
       <div class="container">
         <a class="navbar-brand" href="https://alexmz.com/">
-          <img id="logo" src="images/logo8.png" alt="">
+          <!-- logo image going as background in css -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,6 +44,20 @@
               <a class="nav-link" href="resume/Resume.pdf" target="_blank">Resume</a>
             </li>
           </ul>
+        </div>
+        <div class="dropdown cog-wrapper">
+          <button class="cog-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <svg class="icon-cog" enable-background="new 0 0 30 30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path d="m26.6 12.9-2.9-.3c-.2-.7-.5-1.4-.8-2l1.8-2.3c.2-.2.1-.5 0-.7l-2.2-2.2c-.2-.2-.5-.2-.7 0l-2.3 1.8c-.6-.4-1.3-.6-2-.8l-.3-2.9c-.2-.3-.4-.5-.6-.5h-3.1c-.3 0-.5.2-.5.4l-.3 2.9c-.7.2-1.4.5-2 .8l-2.4-1.7c-.2-.2-.5-.1-.7 0l-2.2 2.2c-.2.2-.2.5 0 .7l1.8 2.3c-.4.6-.6 1.3-.8 2l-2.9.3c-.3.1-.5.3-.5.5v3.1c0 .3.2.5.4.5l2.9.3c.2.7.5 1.4.8 2l-1.8 2.3c-.2.2-.1.5 0 .7l2.2 2.2c.2.2.5.2.7 0l2.3-1.8c.6.4 1.3.6 2 .8l.3 2.9c0 .3.2.4.5.4h3.1c.3 0 .5-.2.5-.4l.3-2.9c.7-.2 1.4-.5 2-.8l2.3 1.8c.2.2.5.1.7 0l2.2-2.2c.2-.2.2-.5 0-.7l-1.8-2.3c.4-.6.6-1.3.8-2l2.9-.3c.3 0 .4-.2.4-.5v-3.1c.3-.2.1-.4-.1-.5zm-11.6 6.1c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"></path></svg>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+            <span class="dropdown-item">
+              Night mode
+              <label class="switch">
+                <input type="checkbox" onclick="darkLight()" id="switchbox" >
+                <span class="slider"></span>
+              </label>
+            </span>
+          </div>
         </div>
       </div>
     </nav>
@@ -68,7 +82,7 @@
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
                   <div class="screen">
-                    <img src="images/header3.jpg" class="img-fluid rounded" alt="">
+                    <!-- screen image going as background in css -->
                   </div>
                   <div class="button">
                   </div>
@@ -89,9 +103,9 @@
       <!-- Project One -->
       <div class="row">
         <div class="col-lg-7 my-auto">
-          <div class="hovereffect rounded">
+          <div class="hovereffect">
             <a href="blackbear/">
-              <img class="img-fluid rounded mb-3 mb-md-0" src="images/blackbear.png" alt="">
+              <img class="img-fluid mb-3 mb-md-0" src="images/blackbear.png" alt="">
             </a>
           </div>
         </div>
@@ -111,9 +125,9 @@
       <!-- Project Two -->
       <div id="out" class="row">
         <div class="col-lg-7 my-auto">
-          <div class="hovereffect rounded">
+          <div class="hovereffect">
             <a href="maintain/">
-              <img class="img-fluid rounded mb-3 mb-md-0" src="images/main.png" alt="">
+              <img class="img-fluid mb-3 mb-md-0" src="images/main.png" alt="">
             </a>
           </div>
         </div>
@@ -135,37 +149,36 @@
 
     <!-- Footer -->
     <footer class="page-footer font-small lighten-5">
-      <div style="background-color: #FAFAFA!important;">
+      <div>
         <div class="container">
           <!-- Grid row-->
           <div class="row d-flex align-items-center">
             <!-- Grid column -->
             <div class="col-md-6 col-lg-5 text-center text-sm-left mb-4 mb-md-0">
               <a class="navbar-brand" href="https://alexmz.com/">
-                <img id="logo" src="images/logo8.png" alt="">
               </a>
             </div>
             <!-- Grid column -->
             <!-- Grid column -->
             <div class="col-md-6 col-lg-7 text-center text-md-right">
               <!-- Email -->
-              <a id="icon" href="mailto:hello@alexmz.com" target="_blank">
+              <a id="icon" class="footer-icon" href="mailto:hello@alexmz.com" target="_blank">
                 <i class="fas fa-envelope mr-4"></i>
               </a>
               <!-- Linkedin -->
-              <a id="icon" href="https://www.linkedin.com/in/alex-marcinkiewicz/" target="_blank">
+              <a id="icon" class="footer-icon" href="https://www.linkedin.com/in/alex-marcinkiewicz/" target="_blank">
                 <i class="fab fa-linkedin-in white-text mr-4"> </i>
               </a>
               <!-- Github -->
-              <a id="icon" href="https://github.com/AMarcinkiewicz" target="_blank">
+              <a id="icon" class="footer-icon" href="https://github.com/AMarcinkiewicz" target="_blank">
                 <i class="fab fa-github white-text mr-4"> </i>
               </a>
               <!-- Twitter -->
-              <a id="icon" href="https://twitter.com/amarcinkiewicz?lang=en" target="_blank">
+              <a id="icon" class="footer-icon" href="https://twitter.com/amarcinkiewicz?lang=en" target="_blank">
                 <i class="fab fa-twitter mr-4"> </i>
               </a>
               <!-- Instagram -->
-              <a id="icon" href="https://www.instagram.com/a1exmz/?hl=en" target="_blank">
+              <a id="icon" class="footer-icon" href="https://www.instagram.com/a1exmz/?hl=en" target="_blank">
                 <i class="fab fa-instagram white-text"> </i>
               </a>
             </div>
@@ -188,6 +201,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
   </body>
 </html>
