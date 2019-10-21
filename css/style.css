@@ -125,8 +125,8 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #003BC2;
-  border-color: #003BC2;
+  background-color: #004EFF;
+  border-color: #004EFF;
 }
 
 a {
@@ -303,7 +303,7 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #FF9800;
+  background-color: #ff5500;
 }
 
 input:checked + .slider:before {
@@ -376,23 +376,23 @@ body.dark_mode {
 }
 
 .dark_mode a {
-  color: #FF9800;
+  color: #ff5500;
 }
 
 .dark_mode .btn-primary {
   color: #FFF;
-  background-color: #FF9800;
-  border-color: #FF9800;
+  background-color: #ff5500;
+  border-color: #ff5500;
 }
 
 .dark_mode .btn-primary:hover {
-  background-color: #E68A00;
-  border-color: #E68A00;
+  background-color: #ff5500;
+  border-color: #ff5500;
 }
 
 .dark_mode .btn-primary:active:focus {
-  background-color: #E68A00;
-  border-color: #E68A00;
+  background-color: #ff5500;
+  border-color: #ff5500;
 }
 
 .dark_mode .dropdown-menu {
@@ -429,7 +429,7 @@ body.dark_mode {
 }
 
 .dark_mode .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #FF9800;
+    color: #ff5500;
 }
 
 .dropdown > .dropdown-menu {
