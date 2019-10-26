@@ -222,14 +222,48 @@ footer {
 .hovereffect img {
   display:block;
   position:relative;
-  -webkit-transition:all .12s linear;
-  transition:all .12s linear;
+  -webkit-transition:all .17s linear;
+  transition:all .17s linear;
 }
 
 .hovereffect:hover img {
   -ms-transform:scale(1.04);
   -webkit-transform:scale(1.04);
   transform:scale(1.04);
+}
+
+.overlayx {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .17s linear;
+  background-color: #004EFF;
+}
+
+.dark_mode .overlayx {
+  background-color: #ff5500;
+}
+
+.hovereffect:hover .overlayx {
+  opacity: .92;
+}
+
+.hovertext {
+  color: #fff;
+  font-size: 2.4em;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .cog-dropdown {
