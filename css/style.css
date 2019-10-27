@@ -49,7 +49,7 @@ h1 {
   font-family: 'avertastd3', Arial, Helvetica, sans-serif;
   font-weight: black;
   font-size: 3.3em;
-  color: #0a0a16;
+  color: #011118;
   line-height: normal;
 }
 
@@ -57,14 +57,14 @@ h2 {
   font-family: 'avertastd2', Arial, Helvetica, sans-serif;
   font-weight: medium;
   font-size: 2.25em;
-  color: #0a0a16;
+  color: #011118;
 }
 
 h3 {
   font-family: 'avertastd2', Arial, Helvetica, sans-serif;
   font-weight: medium;
   font-size: 2em;
-  color: #0a0a16;
+  color: #011118;
 }
 
 p {
@@ -72,7 +72,7 @@ p {
   line-height: 35px;
   font-weight: normal;
   font-size: 19px;
-  color: #222222;
+  color: #252525;
 }
 
 .p2 {
@@ -80,7 +80,7 @@ p {
   line-height: 30px;
   font-weight: normal;
   font-size: 21px;
-  color: #222222;
+  color: #252525;
   padding-top: 6px;
   padding-bottom: 13px;
 }
@@ -90,12 +90,12 @@ p {
   line-height: 30px;
   font-weight: normal;
   font-size: 18px;
-  color: #222222;
+  color: #252525;
 }
 
 .bold {
   font-weight: 600;
-  color: #212529;
+  color: #011118;
 }
 
 body {
@@ -110,7 +110,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.5);
+    color: #252525;
     font-weight: normal;
     font-family: 'avertastd1', Arial, Helvetica, sans-serif;
 }
@@ -275,12 +275,8 @@ footer {
   opacity: 0
 }
 
-.dark_mode .bigtext {
-  color: #99A0A2;
-}
-
 .cog-dropdown {
-  color: #000;
+  color: #011118;
   border: 0;
   background: transparent;
   outline: none;
@@ -308,6 +304,7 @@ footer {
 .icon-cog {
   height: 20px;
   width: 20px;
+  color: #011118;
 }
 
 /*SWITCH*/
@@ -417,11 +414,11 @@ body.dark_mode {
 }
 
 .dark_mode .navbar-light .navbar-nav .nav-link {
-    color: #FFF;
+    color: #f9f9f9;
 }
 
 .dark_mode .icon-cog path {
-  fill: #FFF;
+  fill: #f9f9f9;
 }
 
 .dark_mode a {
@@ -449,7 +446,7 @@ body.dark_mode {
 }
 
 .dark_mode .dropdown-item {
-  color: #FFF;
+  color: #f9f9f9;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -461,11 +458,19 @@ body.dark_mode {
 }
 
 .dark_mode .footer-icon i {
-  color: #FFF;
+  color: #f9f9f9;
 }
 
-.dark_mode h1, .dark_mode h2, .dark_mode h3, .dark_mode h4, .dark_mode h5, .dark_mode h6, .dark_mode p, .dark_mode span, .dark_mode ul, .dark_mode li {
-  color: #FFF;
+.dark_mode h1, .dark_mode h2, .dark_mode h3, .dark_mode h4, .dark_mode h5, .dark_mode h6, .dark_mode ul, .dark_mode li {
+  color: #f9f9f9;
+}
+
+.dark_mode p, .dark_mode span {
+  color: #dadada;
+}
+
+.dark_mode .bigtext {
+  color: #f9f9f9;
 }
 
 .dark_mode .navbar-light .navbar-toggler-icon {
