@@ -93,6 +93,30 @@ p {
   color: #252525;
 }
 
+::selection {
+  text-shadow: none;
+  color: rgba(0,0,0,.99);
+  background: #fee900;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  color: #rgba(0,0,0,.99);
+  background: #fee900;
+}
+
+.dark_mode ::selection {
+  text-shadow: none;
+  color: #fff;
+  background: #004EFF;
+}
+
+.dark_mode ::-moz-selection {
+  text-shadow: none;
+  color: #fff;
+  background: #004EFF;
+}
+
 .bold {
   font-weight: 600;
   color: #011118;
