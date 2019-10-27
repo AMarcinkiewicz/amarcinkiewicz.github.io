@@ -250,13 +250,21 @@ footer {
 }
 
 .hovereffect:hover .overlayx {
-  opacity: .92;
+  opacity: .75;
+}
+
+.dark_mode .hovereffect:hover .overlayx {
+  opacity: .85;
+}
+
+.hovereffect:hover .hovertext {
+  opacity: 1;
 }
 
 .hovertext {
   color: #fff;
   font-size: 2.4em;
-  font-weight: normal;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -264,6 +272,11 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  opacity: 0
+}
+
+.dark_mode .bigtext {
+  color: #99A0A2;
 }
 
 .cog-dropdown {
