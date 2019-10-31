@@ -270,7 +270,7 @@ footer {
 }
 
 .dark_mode .overlayx {
-  background-color: #ff5500;
+  background-color: #00c3a8;
 }
 
 .hovereffect:hover .overlayx {
@@ -373,7 +373,7 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #ff5500;
+  background-color: #00D4B6;
 }
 
 input:checked + .slider:before {
@@ -446,23 +446,23 @@ body.dark_mode {
 }
 
 .dark_mode a {
-  color: #ff5500;
+  color: #00D4B6;
 }
 
 .dark_mode .btn-primary {
   color: #FFF;
-  background-color: #ff5500;
-  border-color: #ff5500;
+  background-color: #00c3a8;
+  border-color: #00c3a8;
 }
 
 .dark_mode .btn-primary:hover {
-  background-color: #ff5500;
-  border-color: #ff5500;
+  background-color: #00c3a8;
+  border-color: #00c3a8;
 }
 
 .dark_mode .btn-primary:active:focus {
-  background-color: #ff5500;
-  border-color: #ff5500;
+  background-color: #00c3a8;
+  border-color: #00c3a8;
 }
 
 .dark_mode .dropdown-menu {
@@ -507,7 +507,7 @@ body.dark_mode {
 }
 
 .dark_mode .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ff5500;
+    color: #00D4B6;
 }
 
 .dropdown > .dropdown-menu {
