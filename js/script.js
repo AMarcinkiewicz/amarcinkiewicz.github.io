@@ -1,3 +1,8 @@
+$(window).on('load', function() {
+    "use strict";
+    $("#preloader").delay(350).fadeOut('slow');
+});
+
 $('body').toggleClass(localStorage.toggled);
 
 function darkLight() {
