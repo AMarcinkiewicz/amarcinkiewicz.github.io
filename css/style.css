@@ -524,8 +524,8 @@ body.dark_mode {
 
 .dark_mode .btn-primary {
   color: #FFF;
-  background-color: #00D4B6;
-  border-color: #00D4B6;
+  background-color: #00c7ab;
+  border-color: #00c7ab;
 }
 
 .dark_mode .btn-primary:hover {
@@ -795,4 +795,32 @@ footer .navbar-brand {
   .sub-desc {
     padding: 10px 15px;
   }
+}
+
+.project-footer .link.icon-right {
+  float: right;
+}
+
+.project-footer .link.icon-right {
+  background-image: url('../images/arrow-dark.png');
+  background-size: 18px;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+}
+
+.project-footer .link.icon-right:hover {
+  background-image: url('../images/arrow-dark-hover.png');
+}
+
+.dark_mode .project-footer .link.icon-right {
+  background-image: url('../images/arrow-light.png');
+  background-size: 18px;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+}
+
+.dark_mode .project-footer .link.icon-right:hover {
+  background-image: url('../images/arrow-light-hover.png');
 }
