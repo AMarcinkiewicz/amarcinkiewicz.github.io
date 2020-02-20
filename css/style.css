@@ -567,7 +567,7 @@ body.dark_mode {
 
 .dark_mode .light-green-bg, .dark_mode .light-blue-bg, .dark_mode .light-gray-bg  {
   background: #303030;
-  box-shadow: 0px 1.5px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.27);
   border-style: solid;
   border-color: #252525;
 }
@@ -676,21 +676,21 @@ body.dark_mode {
   border-radius: 8px;
   background: #ffffff;
   padding: 25px 30px 0;
-  box-shadow: 0px 2px 18px -5px rgba(0,0,0,0.2);
+  box-shadow: 0px 6px 18px -7px rgba(0,0,0,0.35);
 }
 
 .light-green-bg {
   border-radius: 8px;
   background: #ffffff;
   padding: 25px 30px 0;
-  box-shadow: 0px 2px 18px -5px rgba(0,0,0,0.2);
+  box-shadow: 0px 6px 18px -7px rgba(0,0,0,0.35);
 }
 
 .light-gray-bg {
   border-radius: 8px;
   background: #ffffff;
   padding: 25px 30px 0;
-  box-shadow: 0px 2px 18px -5px rgba(0,0,0,0.2);
+  box-shadow: 0px 6px 18px -7px rgba(0,0,0,0.35);
 }
 
 .project-img {
