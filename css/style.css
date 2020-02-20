@@ -183,7 +183,7 @@ body {
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
  .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #010101;
+    color: #001119;
     font-family: 'avertastd2', Arial, Helvetica, sans-serif;
 }
 
@@ -212,6 +212,10 @@ body {
 .btn-primary:hover {
   background-color: #118af1;
   border-color: #118af1;
+}
+
+.shadow {
+    box-shadow: 0 0.3rem .8rem rgba(0,0,0,.12)!important;
 }
 
 a {
