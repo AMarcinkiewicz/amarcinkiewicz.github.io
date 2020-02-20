@@ -521,7 +521,7 @@ body.dark_mode {
 }
 
 .dark_mode .dropdown-menu {
-  background: #151515;
+  background: #303030;
 }
 
 .dark_mode .dropdown-item {
@@ -574,6 +574,7 @@ body.dark_mode {
 
 .dark_mode .sub-desc {
   background: #292929;
+  border-style: none;
   box-shadow: 0px 0px 0px #2f2f2f,
              -0px -0px 0px #313131;
 }
@@ -660,32 +661,34 @@ body.dark_mode {
 
 .sub-desc {
   border-radius: 10px;
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-width: thin;
   color: #252525;
   font-size: 16px;
-  background: #fafafa;
+  background: #ffffff;
   line-height: 24px;
   padding: 15px 20px;
-  box-shadow: 1px 1px 3px #ececec,
-             -1px -1px 3px #ececec;
+
 }
 
 .light-blue-bg {
   border-radius: 8px;
-  background: #f7f7f7;
+  background: #ffffff;
   padding: 25px 30px 0;
   box-shadow: 0px 2px 18px -5px rgba(0,0,0,0.2);
 }
 
 .light-green-bg {
   border-radius: 8px;
-  background: #f7f7f7;
+  background: #ffffff;
   padding: 25px 30px 0;
   box-shadow: 0px 2px 18px -5px rgba(0,0,0,0.2);
 }
 
 .light-gray-bg {
   border-radius: 8px;
-  background: #f7f7f7;
+  background: #ffffff;
   padding: 25px 30px 0;
   box-shadow: 0px 2px 18px -5px rgba(0,0,0,0.2);
 }
