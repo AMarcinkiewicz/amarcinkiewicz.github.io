@@ -435,7 +435,7 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #01d409;
+  background-color: #29d44e;
 }
 
 input:checked + .slider:before {
@@ -521,7 +521,7 @@ body.dark_mode {
 }
 
 .dark_mode .dropdown-menu {
-  background: #000;
+  background: #151515;
 }
 
 .dark_mode .dropdown-item {
