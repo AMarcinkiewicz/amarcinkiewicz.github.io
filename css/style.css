@@ -215,7 +215,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0.3rem .8rem rgba(0,0,0,.12)!important;
+    box-shadow: 0 0.3rem .7rem rgba(0,0,0,.09)!important;
 }
 
 a {
@@ -677,21 +677,21 @@ body.dark_mode {
 }
 
 .light-blue-bg {
-  border-radius: 8px;
+  border-radius: 12px;
   background: #ffffff;
   padding: 25px 30px 0;
   box-shadow: 0px 6px 18px -7px rgba(0,0,0,0.35);
 }
 
 .light-green-bg {
-  border-radius: 8px;
+  border-radius: 12px;
   background: #ffffff;
   padding: 25px 30px 0;
   box-shadow: 0px 6px 18px -7px rgba(0,0,0,0.35);
 }
 
 .light-gray-bg {
-  border-radius: 8px;
+  border-radius: 12px;
   background: #ffffff;
   padding: 25px 30px 0;
   box-shadow: 0px 6px 18px -7px rgba(0,0,0,0.35);
