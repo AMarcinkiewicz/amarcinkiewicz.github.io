@@ -763,6 +763,8 @@ footer .navbar-brand {
   .navbar-nav > li {
     padding-left: 1.3em;
     padding-right: 1.3em;
+    padding-top: .8em;
+    padding-bottom: .8em;
     border-bottom: solid 1px #EEE;
   }
   .navbar-nav > li:last-child {
@@ -799,6 +801,35 @@ footer .navbar-brand {
     padding: 10px 15px;
   }
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+    h1 {
+      font-size: 2em;
+      }
+
+    #intro {
+    padding-top: .5em;
+    padding-bottom: .3em;
+    }
+
+    .screen {
+      min-height: 280px;
+    }
+
+    div.screen {
+      margin-top: 35px;
+    }
+
+    footer {
+      padding-bottom: 40px;
+    }
+
+  }
+
+
+
 
 .project-footer .link.icon-right {
   float: right;
