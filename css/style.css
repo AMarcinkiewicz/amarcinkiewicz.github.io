@@ -818,6 +818,10 @@ footer .navbar-brand {
       min-height: 280px;
     }
 
+    .dark_mode .screen {
+      min-height: 280px;
+    }
+
     div.screen {
       margin-top: 35px;
     }
