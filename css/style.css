@@ -747,6 +747,20 @@ footer .navbar-brand {
     outline: 0;
 }
 
+@media only screen
+  and (min-device-width: 992px)
+  and (max-device-width: 1199px) {
+    .brandproject {
+      font-size: 1.7em;
+    }
+    .sub-desc {
+      font-size: 15px;
+    }
+    .p3 {
+      font-size: 15px;
+    }
+  }
+
 @media (max-width: 991px) {
   .cog-wrapper {
     position: absolute;
