@@ -207,15 +207,14 @@ body {
   background-repeat: repeat-x;
   background-color: #118af1;
   border: none;
+  box-shadow: 0 0.3rem .5rem rgba(0,0,0,.1);
+  border-radius: 5.5px;
 }
 
 .btn-primary:hover {
   background-color: #118af1;
   border-color: #118af1;
-}
-
-.shadow {
-    box-shadow: 0 0.3rem .7rem rgba(0,0,0,.09)!important;
+  box-shadow: 0 0.2rem .5rem rgba(0,0,0,.34);
 }
 
 a {
